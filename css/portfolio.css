@@ -1,0 +1,40 @@
+.button-portfolio {
+    color: var(--graphyt);
+    background: var(--grey);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px; /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    border: none;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+    color: var(--white);
+    background: var(--light-blue);
+}
+
+.buttons-projects {
+    text-align: center;
+}
+
+.projects {
+    border: 1px solid var(--border-grey);
+}
+
+.projects-title {
+    color: var(--graphyt);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px; /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+}
+
+.projects-text {
+    color: var(--light-grey);
+    font-size: 16px;
+    line-height: 30px; /* identical to box height, or 187% */
+    letter-spacing: 0.03em;
+}

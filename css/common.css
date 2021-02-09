@@ -1,0 +1,107 @@
+:root {
+    --light-blue: rgba(33, 150, 243, 1);
+
+    --black: rgba(0, 0, 0, 1);
+    --graphyt: rgba(33, 33, 33, 1);
+
+    --light-grey: rgba(117, 117, 117, 1);
+    --grey: rgba(245, 244, 250, 1);
+    --border-grey: rgba(238, 238, 238, 1);
+    --dark-grey: rgba(47, 48, 58, 1);
+
+    --white: rgba(255, 255, 255, 1);
+    --white-op06: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    background-color: var(--white);
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    color: var(--black);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+.logo-footer {
+    color: var(--black);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+.logo-web {
+    color: var(--light-blue);
+}
+
+.logo-second-part {
+    color: var(--white);
+}
+
+.site-nav .navigation.current {
+    color: var(--light-blue);
+}
+
+.navigation {
+    color: var(--graphyt);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.navigation:hover,
+.navigation:focus {
+    color: var(--light-blue);
+}
+
+.contacts {
+    color: var(--light-grey);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--light-blue);
+}
+
+.hidden-title {
+    visibility: hidden;
+}
+
+.office-address {
+    color: var(--white);
+}
+
+.email-tel {
+    color: var(--white-op06);
+}
+
+address {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px; /* or 171% */
+    letter-spacing: 0.03em;
+}
+
+footer {
+    background-color: var(--dark-grey);
+}
+
+/*Отключено для наглядности*/
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
