@@ -49,7 +49,6 @@
 }
 
 .projects-title {
-    display: inline-block;
     margin: 0;
     padding: 0;
     color: var(--graphyt);
