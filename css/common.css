@@ -37,9 +37,6 @@ img {
 .header {
     display: flex;
     justify-content: space-between;
-}
-
-.header-portfolio {
     border-bottom: 1px solid var(--header-grey);
 }
 
