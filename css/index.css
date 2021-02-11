@@ -44,22 +44,28 @@
     letter-spacing: 0.06em;
 }
 
-.adventages-container {
+.advantages-container {
     padding-top: 94px;
 }
 
-.ul-adventages {
+.ul-advantages {
     display: flex;
-    justify-content: row;
+    flex-direction: row;
+    justify-content: flex-start;
     margin: 0 auto;
     padding: 0;
 }
 
-.ul-adventages li:not(:first-child) {
+.li-advantages:not(:first-child) {
     margin-left: 30px;
 }
 
-.adventages-title {
+/*Решение для отображения контейнеров с текстом размером как на макете*/
+.li-advantages {
+    max-width: 270px;
+}
+
+.advantages-title {
     display: inline-block;
     margin-top: 0;
     margin-bottom: 0px;
@@ -70,13 +76,14 @@
     text-transform: uppercase;
 }
 
-.adventages-text {
+.advantages-text {
     margin-top: 10px;
     margin-bottom: 0;
     color: var(--light-grey);
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
+    text-align: left;
 }
 
 .features-container {
