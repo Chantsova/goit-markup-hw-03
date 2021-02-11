@@ -158,6 +158,8 @@ img {
 
 .office-address {
     color: var(--white);
+    margin: 0;
+    padding: 0;
 }
 
 .email-tel {
