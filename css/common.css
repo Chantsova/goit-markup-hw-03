@@ -83,7 +83,6 @@ img {
 
 .site-nav {
     display: flex;
-    justify-content: space-between;
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
@@ -117,13 +116,16 @@ img {
 .ul-contacts {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
     margin-top: 0;
+    margin-left: 331px;
     margin-bottom: 0;
     padding-left: 0;
     padding-top: 32px;
     padding-bottom: 32px;
-    /* outline: 1px solid green; */
+}
+
+.ul-contacts li:not(:first-child) {
+    margin-left: 50px; /*between menu-items*/
 }
 
 .ul-footer {
